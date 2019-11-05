@@ -24,7 +24,8 @@ defmodule ScenicObserver.MixProject do
   defp deps do
     [
       {:scenic, "~> 0.10"},
-      {:scenic_driver_glfw, "~> 0.10", targets: :host},
+      {:scenic_driver_glfw, "~> 0.10"},
+      {:scenic_layout_o_matic, "0.3.0"}
     ]
   end
 end
